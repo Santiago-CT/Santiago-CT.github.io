@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+	
 }
+
 #elemento:hover{
 	color: rgb(19, 31, 197);
 }
@@ -9,9 +11,9 @@
 .sp{
 	margin:10px;
 	display: flex;
-    background-color: rgb(214, 218, 160);
+    background-color: rgb(128, 182, 185);
     height: 60px;
-    width: 60px;
+    width: 80px;
     align-items: center;
     flex-direction: row;
 	
@@ -20,15 +22,15 @@
     justify-content: center;
     align-items: center;
 	border-radius: 7px;
-	border: 10%;
+	
 	border-color: rgb(197, 140, 33);
 }
 .sp1{
 	margin:10px;
 	display: flex;
-    background-color: rgb(214, 218, 160);
+    background-color: rgb(128, 182, 185);
     height: 60px;
-    width: 60px;
+    width: 80px;
     align-items: center;
     flex-direction: row;
 	
@@ -43,9 +45,9 @@
 .sp2{
 	margin:10px;
 	display: flex;
-    background-color: rgb(214, 218, 160);
+    background-color: rgb(128, 182, 185);
     height: 60px;
-    width: 60px;
+    width: 80px;
     align-items: center;
     flex-direction: row;
 	
@@ -59,9 +61,9 @@
 .sp3{
 	margin:10px;
 	display: flex;
-    background-color: rgb(214, 218, 160);
+    background-color: rgb(128, 182, 185);
     height: 60px;
-    width: 60px;
+    width: 80px;
     align-items: center;
     flex-direction: column;
 	
@@ -74,9 +76,9 @@
 .sp4{
 	margin:10px;
 	display: flex;
-    background-color: rgb(214, 218, 160);
+    background-color: rgb(128, 182, 185);
     height: 60px;
-    width: 60px;
+    width: 80px;
     align-items: center;
     flex-direction: column;
 	
@@ -89,11 +91,13 @@
 header{
 	
 	color: aliceblue;
-	background-color: rgb(131, 221, 153);
+	background-color: rgb(187, 218, 226);
 	border-radius: 5px;
 	width: 100%;
 	text-align: center;
 	height: 80px;
+	border-style: solid;
+	border-width: 0PX 0px 3px 0px;
 }/*
 aside{
 	margin-left: 0%;
@@ -109,34 +113,108 @@ aside{
 	text-align: center;
 	margin-left: 0%;
 	margin-right: 60%;
-	background-color: rgb(45, 221, 206);
-	height: 1000px;
-	width: 40%;}
+	background-color: rgb(86, 161, 211);
+	height: 855px;
+	border-top-width: 20px;
+	border-color: rgb(240, 248, 255);
+	width: 20%;
+	border-width: 0PX 3px 0px 0px;
+	border-style: solid;
+	flex-direction: column;
+	align-items: center;
+	
+
+}
 .mitad{
 	display: flex;
-    background-color: rgb(214, 218, 160);
-    height: 600px;
+    background-color: rgb(63, 128, 180);
+    height: 750px;
     width: 600px;
-    align-items: center;
+   
     flex-direction: column;
-	margin: 20px;
+	margin: 40px 140px 0px 5px;
 	float: right;
 	border-radius: 5px;
-    justify-content: center;
-    align-items: center;
-	border-radius: 7px;
+    /*justify-content: center;*/
+    align-items: left;
+	border-width: 0PX 1px 0px 0px;
+    border-color: rgb(187, 218, 226);
+	border-width: 5PX;
+	border-style: solid;	
+}
+.mitad2{
+	display: flex;
+    background-color: rgb(63, 180, 69);
+    height: 750px;
+    width: 600px;
+   
+    flex-direction: column;
+	margin: 40px 5px 0px 0px;
+	float: RIGHT;
+	border-radius: 5px;
+    /*justify-content: center;*/
+    align-items: left;
+	border-width: 0PX 1px 0px 0px;
+    border-color: rgb(187, 218, 226);
+	border-width: 5PX;
+	border-style: solid;	
 }
 
 body{
-	background-color: rgb(150, 245, 240);
+	background-color: rgb(150, 183, 245);
 }
 .lista{
 	margin-left: 5%;
 }
 .Sub{
-	margin: 20px;
-	margin-left:40% ;
 	text-align: center;
-	font: size 50%;
-	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+   margin:  30PX 0PX 0px 0px;
+    height: 50px;
+    width: 80%;
+   
+    flex-direction: column;
+	
+	float: center;
+    align-items: center;
+	border-width: 5PX;
+	font-style: italic;
+	
+}
+*{
+	color: rgb(255, 255, 255);
+}
+
+	
+
+.ft{
+	border-radius: 15px;
+	display: flex;
+    
+    height: 200px;
+  
+    flex-direction: column;
+	
+	float:left;
+	border-radius: 15px;
+    align-items: left;
+	border-width: 0PX 1px 0px 0px;
+    border-color: rgb(187, 218, 226);
+	border-width: 3PX;
+	border-style: solid;
+	margin: 30PX 0PX 0px 0px;
+}
+.presentacion{
+	display: flex;
+    
+    height: 300px;
+    width: 80%;
+   
+    flex-direction: column;
+	margin: 30px;
+	float: center;
+    align-items: left;
+	border-width: 5PX;
+	font-style: italic;
+
 }
