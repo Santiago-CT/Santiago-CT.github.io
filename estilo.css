@@ -4,10 +4,27 @@
 	
 }
 
+#elemento{
+	margin: 10px,0px,0px,0px;
+	text-align: center;
+	padding: 20px;
+	color: rgb(187, 218, 226);
+	
+}
 #elemento:hover{
-	color: rgb(19, 31, 197);
+	color: rgb(128, 182, 185);
 }
 
+#elemento1{
+	padding: 20px;
+	text-align: center;
+	color: rgb(187, 218, 226);
+}
+
+li{
+	color: rgb(14, 13, 13);
+	margin-left: 5%;
+}
 .sp{
 	margin:10px;
 	display: flex;
@@ -23,7 +40,7 @@
     align-items: center;
 	border-radius: 7px;
 	
-	border-color: rgb(197, 140, 33);
+	border-color: rgb(128, 182, 185);
 }
 .sp1{
 	margin:10px;
@@ -73,6 +90,13 @@
     align-items: center;
 	border-radius: 7px;
 }
+video{
+	padding: 30px;
+	margin-left: 0;
+	align-items: center;
+	width: 60%;
+	
+}
 .sp4{
 	margin:10px;
 	display: flex;
@@ -113,7 +137,7 @@ aside{
 	text-align: center;
 	margin-left: 0%;
 	margin-right: 60%;
-	background-color: rgb(86, 161, 211);
+	background-color: rgb(187, 218, 226);
 	height: 855px;
 	border-top-width: 20px;
 	border-color: rgb(240, 248, 255);
@@ -125,47 +149,46 @@ aside{
 	
 
 }
+
 .mitad{
 	display: flex;
-    background-color: rgb(63, 128, 180);
     height: 750px;
     width: 600px;
-   
+   align-items: center;
     flex-direction: column;
-	margin: 40px 140px 0px 5px;
+	margin: 40px 130px 0px 10px;
 	float: right;
 	border-radius: 5px;
     /*justify-content: center;*/
     align-items: left;
 	border-width: 0PX 1px 0px 0px;
     border-color: rgb(187, 218, 226);
-	border-width: 5PX;
+	border-width: 2PX;
 	border-style: solid;	
+	
 }
 .mitad2{
 	display: flex;
-    background-color: rgb(63, 180, 69);
+    
     height: 750px;
     width: 600px;
    
     flex-direction: column;
-	margin: 40px 5px 0px 0px;
+	margin: 40px 40px 0px 0px;
 	float: RIGHT;
 	border-radius: 5px;
     /*justify-content: center;*/
     align-items: left;
 	border-width: 0PX 1px 0px 0px;
     border-color: rgb(187, 218, 226);
-	border-width: 5PX;
+	border-width: 2PX;
 	border-style: solid;	
 }
 
 body{
-	background-color: rgb(150, 183, 245);
+	background-color: rgb(255, 255, 255);
 }
-.lista{
-	margin-left: 5%;
-}
+
 .Sub{
 	text-align: center;
 	display: flex;
@@ -181,12 +204,6 @@ body{
 	font-style: italic;
 	
 }
-*{
-	color: rgb(255, 255, 255);
-}
-
-	
-
 .ft{
 	border-radius: 15px;
 	display: flex;
@@ -202,7 +219,7 @@ body{
     border-color: rgb(187, 218, 226);
 	border-width: 3PX;
 	border-style: solid;
-	margin: 30PX 0PX 0px 0px;
+	
 }
 .presentacion{
 	display: flex;
